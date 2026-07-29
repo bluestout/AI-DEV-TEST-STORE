@@ -11,6 +11,38 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "newsletter_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "newsletter_paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "newsletter_form": {
+          "type": "email_form"
+        }
+      },
+      "block_order": [
+        "newsletter_heading",
+        "newsletter_paragraph",
+        "newsletter_form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -57,6 +89,7 @@
     }
   },
   "order": [
+    "newsletter",
     "footer"
   ]
 }
