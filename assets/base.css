@@ -2228,8 +2228,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 /* section-announcement-bar */
 .announcement-bar {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  color: rgb(var(--color-foreground));
+  background-color: #e63946;
+  color: #ffffff;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 
 .announcement-bar__container {
@@ -2248,11 +2249,11 @@ product-info .loading-overlay:not(.hidden) ~ *,
   flex: 1;
   min-width: 0;
   text-decoration: none;
-  color: rgb(var(--color-foreground));
+  color: #ffffff;
 }
 
 .announcement-bar__link:hover {
-  color: rgb(var(--color-foreground));
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .announcement-bar__link .icon-arrow {
@@ -2273,7 +2274,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   padding: 0;
   margin: 0;
   letter-spacing: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   white-space: normal;
   word-break: break-word;
@@ -2289,7 +2290,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   background: transparent;
   border: none;
   cursor: pointer;
-  color: rgb(var(--color-foreground));
+  color: #ffffff;
   flex-shrink: 0;
   transition: opacity 0.2s ease;
 }
@@ -2315,7 +2316,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   .announcement-bar__message {
-    font-size: 0.8125rem;
+    font-size: 1rem;
   }
 
   .announcement-bar__close-button {
